@@ -40,9 +40,6 @@
   <div class="${properties.kcLoginClass!}">
     <div id="kc-header" class="${properties.kcHeaderClass!}">
         <img src="${url.resourcesPath}/img/confluency-logo-header.png" alt="Header Image">
-        <div id="kc-header-wrapper" class="${properties.kcHeaderWrapperClass!}">
-            ${kcSanitize(msg("loginTitleHtml",(realm.   displayNameHtml!'')))?no_esc}
-        </div>
     </div>
     <div class="${properties.kcFormCardClass!} <#if displayWide>${properties.kcFormCardAccountClass!}</#if>">
       <header class="${properties.kcFormHeaderClass!}">
